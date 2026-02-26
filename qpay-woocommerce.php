@@ -1,10 +1,19 @@
 <?php
 /**
  * Plugin Name: QPay Payment Gateway for WooCommerce
- * Description: QPay V2 payment gateway integration for WooCommerce
+ * Plugin URI: https://github.com/qpay-sdk/qpay-woocommerce
+ * Description: QPay V2 payment gateway integration for WooCommerce. Accept payments via QR code and bank app deeplinks.
  * Version: 1.0.0
  * Author: QPay SDK
+ * Author URI: https://github.com/qpay-sdk
  * License: MIT
+ * License URI: https://opensource.org/licenses/MIT
+ * Text Domain: qpay-woocommerce
+ * Domain Path: /languages
+ * Requires at least: 6.0
+ * Requires PHP: 8.1
+ * WC requires at least: 8.0
+ * WC tested up to: 9.6
  * Requires Plugins: woocommerce
  */
 
