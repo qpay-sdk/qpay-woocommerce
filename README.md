@@ -1,5 +1,7 @@
 # QPay WooCommerce Payment Gateway
 
+[![CI](https://github.com/qpay-sdk/qpay-woocommerce/actions/workflows/ci.yml/badge.svg)](https://github.com/qpay-sdk/qpay-woocommerce/actions)
+
 QPay V2 payment gateway plugin for WooCommerce.
 
 ## Install
