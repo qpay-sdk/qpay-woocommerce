@@ -3,7 +3,7 @@
  * Plugin Name: QPay Payment Gateway for WooCommerce
  * Plugin URI: https://github.com/qpay-sdk/qpay-woocommerce
  * Description: QPay V2 payment gateway integration for WooCommerce. Accept payments via QR code and bank app deeplinks.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: QPay SDK
  * Author URI: https://github.com/qpay-sdk
  * License: MIT
@@ -19,7 +19,7 @@
 
 if (! defined('ABSPATH')) exit;
 
-define('QPAY_WC_VERSION', '1.0.0');
+define('QPAY_WC_VERSION', '1.0.1');
 define('QPAY_WC_PATH', plugin_dir_path(__FILE__));
 define('QPAY_WC_URL', plugin_dir_url(__FILE__));
 
