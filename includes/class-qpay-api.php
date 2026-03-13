@@ -70,6 +70,11 @@ class WC_QPay_API
         return $this->request('POST', '/v2/invoice', $data);
     }
 
+    public function get_payment(string $payment_id): ?array
+    {
+        return $this->request('GET', '/v2/payment/' . $payment_id);
+    }
+
     public function check_payment(string $invoice_id): ?array
     {
         return $this->request('POST', '/v2/payment/check', [
